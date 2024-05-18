@@ -1,0 +1,251 @@
+.cartparent{
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartparent1{
+    width: 90%;
+}
+.cartheading{
+    width: 100%;
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+/* empty */
+
+.emptycard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20.4px 0;
+}
+.emptybtn{
+    border: 1px solid #a435f0;
+    background-color: #a435f0;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/* cart */
+
+.cartsection{
+    display: flex;
+}
+
+.cartcontentcard{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.cartcontentcard>p{
+    color: red;
+}
+.cartcontentcard img{
+    width: 18rem;
+}
+
+.checkout{
+    border: 1px solid #a435f0;
+    background-color: #a435f0;
+    color: white;
+    padding: 10px 15px;
+    font-size: large;
+    width: 15rem;
+    text-align: center;
+}
+.cartcontentcard1{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.cartcontentcard1{
+    line-height: 25px;
+}
+.totalsection{
+    padding-left: 10px;
+}
+.totalsection p,h1{
+    margin-bottom: 10px;
+}
+
+.cartauthor{
+    font-weight: 500;
+}
+.emptycard img{
+    width: 22.5%;
+}
+
+@media (max-width:756px){
+    .cartparent{
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+    }
+    .cartparent1{
+        width: 100%;
+    }
+    .cartheading{
+        width: 100%;
+        font-size: large;
+    }
+    
+    /* empty */
+    
+    .emptycard{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20.4px 0;
+    }
+    
+    .emptybtn{
+        border: 1px solid #a435f0;
+        background-color: #a435f0;
+        color: white;
+        padding: 10px 15px;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    
+    /* cart */
+    
+    .cartsection{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cartcontentcard{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 0 18px;
+    }
+    .cartcontentcard img{
+        width: 100%;
+    }
+    .cartcontentcard1{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .cartcontentcard1{
+        line-height: 22px;
+    }
+    .cartdes{
+        margin: 3px 0;
+    }
+    .totalsection{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .totalsection p{
+        position: absolute;
+        left: 5rem;
+        top: 0.5rem;
+    }
+    .totalsection p,h1{
+        margin-bottom: 10px;
+    }
+    .cartauthor{
+        margin-bottom: 4px;
+    }
+    .remove{
+        margin-bottom: 3px;
+    }
+}
+
+@media (min-width:756px) and (max-width:1024px){
+    .cartparent{
+        padding: 10px 0;
+    }
+    .cartparent1{
+        width: 95%;
+    }
+    /* empty */
+    
+    .emptycard{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20.4px 0;
+    }
+    .emptybtn{
+        border: 1px solid #a435f0;
+        background-color: #a435f0;
+        color: white;
+        padding: 10px 15px;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+    
+    /* cart */
+    
+    .cartsection{
+        display: flex;
+    }
+    
+    .cartcontentcard{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        gap: 10px 0;
+    }
+    .cartcontentcard>p{
+        color: red;
+    }
+    .cartcontentcard img{
+        width: 100%;
+        height: 16rem;
+        margin-bottom: 10px;
+    }
+    
+    .checkout{
+        border: 1px solid #a435f0;
+        background-color: #a435f0;
+        color: white;
+        padding: 10px 15px;
+        font-size: large;
+        width: 15rem;
+        text-align: center;
+    }
+    .cartcontentcard1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cartcontentcard1{
+        line-height: 25px;
+    }
+    .totalsection{
+        padding-left: 10px;
+    }
+    .totalsection p,h1{
+        margin-bottom: 10px;
+    }
+    
+    .cartauthor{
+        font-weight: 500;
+    }
+    .emptycard img{
+        width: 22.5%;
+    }
+    
+}

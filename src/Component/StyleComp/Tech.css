@@ -1,0 +1,236 @@
+.techtopimg{
+    position: relative;
+}
+.techtopimg img{
+    width: 100%;
+    height: 70vh;
+}
+.techtopinnerSection{
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    width: 20rem;
+}
+.techtopinnerSection h1{
+    font-size: 3.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    color: #2d2f31;
+}
+.techtopinnerSection p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    color: #2d2f31;
+}
+.innergetStarted{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    padding: 12px 0;
+    text-align: center;
+}
+.innergetStarted:hover{
+    background-color: #2d2f31;;
+}
+
+/* second section */
+
+.reasonsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px 0;
+    background-color: white;
+    padding: 80px 0;
+}
+.reasonsection h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+}
+.reasonsection-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.reasonsection1{
+    text-align: center;
+    width: 21rem;
+    line-height: 30px;
+}
+.reasonsection1 img{
+    width: 30%;
+}
+
+/* third section */
+
+.thirdsection{
+    display: flex;
+    background-color: #5624d0;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 12rem;
+    align-items: center;
+    width: 100%;
+}
+.count{
+    text-align: center;
+}
+.count h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.count p{
+    font-size: large;
+}
+
+/* begin section */
+
+.beginsection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+.beginsection1{
+    display: flex;
+    width: 50%;
+    font-size: 21px;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    color: grey;
+    cursor: pointer;
+}
+.beginsection h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    font-size: 38px;
+}
+.h3{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.beginsection1 h3:hover{
+    color: black;
+}
+.beginsection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.beginsection2-col1{
+    font-size: large;
+    width: 25%;
+    font-size: large;
+    line-height: 28px;
+}
+.beginsection2-col1 p,h4{
+    margin-bottom: 15px;
+}
+
+/* fourth section */
+
+.fourthsection{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(243, 243, 243)222, 222, 222;
+    gap: 0 20px;
+}
+.fourthsection1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    font-size: x-large;
+    justify-content: center;
+}
+.fourthsection1 p,h6{
+    margin-bottom: 10px;
+}
+.fourthsection1 span{
+    font-size: large;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* section fifth alone */
+.sectionfifth{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-wrap: wrap;
+    padding: 110px 0;
+}
+.sectionfifth img{
+    width: 30%;
+}
+.sectionfifth1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.sectionfifth1 h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.sectionfifth p{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sectionfifth span{
+    color: #5624d0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* section instructor */
+
+.instructorsection{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.instructorsection1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+.instructorsection1 h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.instructorsection1 p{
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+.instructorsection2{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+.instructorsection2:hover{
+    background-color: #2d2f31;
+}

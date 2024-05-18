@@ -1,0 +1,848 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --bg:rgb(245, 245, 245);
+    --textcolor:rgb(142, 142, 142);
+}
+.hometop-img{
+    background-color: white;
+    /* text-align: center; */
+    padding-bottom: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hometop-img img{
+    width: 90%;
+}
+.topimg_text{
+    position: absolute;
+    background-color: white;
+    width: 25rem;
+    top: 80px;
+    left: 150px;
+    padding: 20px 30px;
+    line-height: 50px;
+}
+.topimg_text p{
+    font-size: large;
+    line-height: 38px;
+}
+.topimgbtn{
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0px 15px;
+}
+.topimgbtn:hover{
+    background-color: rgb(44, 44, 44);
+}
+
+/* home second section */
+.homecompanysection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    height: 15rem;
+    font-size: 19px;
+    font-weight: 500;
+    gap: 20px 0;
+}
+.homesection-1{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.homesection-1 img{
+    width: 70px;
+}
+
+/* home course section*/
+
+.selectionCourse{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slectioncourse-1{
+    width: 88%;
+    margin:40px 0 ;
+}
+.selectioninner{
+    width: 70%;
+}
+.slectioncourse-1 h1{
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+.slectioncourse-1P{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.slectioncourse-2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slectioncourse-2 span{
+    font-size: 100%;
+    font-weight: 600;
+    color: var(--textcolor);
+}
+.span1{
+    color: black!important;
+    padding-bottom: 10px;
+}
+
+.career1{
+    border: 2px solid rgb(211, 211, 211);
+    padding: 30px 22px;
+}
+
+.career1 h2{
+    font-size: 32px;
+}
+.career1-p1{
+    width: 75%;
+    padding: 15px 0;
+}
+.explore-btn{
+    border: 1px solid;
+    width: fit-content;
+    padding: 10px 16px;
+    font-weight: 700;
+}
+
+.carrerCard{
+    display: flex;
+    line-height: 25px;
+    flex-wrap: wrap;
+    gap: 0 17px;
+    padding-top: 15px;
+}
+.carrercard1{
+    width: 15rem;
+}
+.carrercard1 span{
+    font-weight: 100;
+    font-size: 13px;
+}
+
+/* goals */
+.learnsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 0;
+    padding: 70px 0;
+}
+.learnsection h1{
+    width: 89%;
+}
+.learnsection1{
+    display: flex;
+    gap: 0 20px;
+    width: 90%;
+}
+.goalheading{
+    font-size: 100%;
+    height: 50%;
+}
+.goalsinner{
+    width: 25rem;
+    padding: 28px 20px;
+    background-color: white;
+}
+.goalsinner img{
+    width: 20px;
+    margin-bottom: 8px;
+}
+.logo{
+    display: flex;
+    gap: 0 8px;
+    padding: 10px 0;
+}
+.logo span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 15rem;
+    padding: 6px 5px;
+    font-size: 12px;
+}
+.playiconcontainer{
+    display: flex;
+    gap: 0 10px;
+    color: #5624d0;
+    font-size: 120%;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.playicon{
+    font-size: x-large;
+}
+
+/* learner card */
+.learnerview-section{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+}
+.learnerview-section h1{
+    width: 88%;
+    margin-bottom: 15px;
+}
+.learnerSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px 33px; */
+    line-height: 23px;
+    width: 88%;
+}
+.learnerCard{
+    width: 15rem;
+}
+.learnerCard span{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* top category */
+.topcategories-section{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    width: 100%;
+}
+.topinnercategories{
+    width: 87%;
+}
+.categorysection1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin-top: 20px;
+}
+.categorysection1 p{
+    font-size: 19px;
+    font-weight: 700;
+}
+.categorysection1 img:hover{
+    transform: scale(1.02);
+    transition: 0.8s ease-in-out;
+}
+
+/* feature */
+.featureTopicsMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 45px 0;
+    background-color: var(--bg);
+}
+.featureTopicsMain1{
+    width: 87%;
+}
+.featureinner{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.featureinner h2{
+    padding-bottom: 20px;
+}
+.featurecol1{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 10px 0;
+    padding-bottom: 30px;
+}
+.featurecol1 p{
+    text-decoration: underline;
+    color: #642fea;
+    font-weight: 700;
+}
+.featurecol1 p:hover{
+    color: #4c23b5;
+}
+.featurecol1 span{
+    color: var(--textcolor);
+    font-size: small;
+}
+.explorebtn{
+    border: 1px solid;
+    width: fit-content;
+    padding: 14px 8px;
+    font-weight: 500;
+}
+.explorebtn:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+/* bussines section */
+.businesssecton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px 0;
+}
+.businesssecton1{
+    display: flex;
+    justify-content: center;
+}
+.businesscol1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.businesscol2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.businesscol1 img{
+    width: 12rem;
+    margin-bottom: 12px;
+}
+.businesscol1 h1{
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.businesscol1 ul{
+   font-size: 22px;
+   line-height: 30px;
+   padding-left: 20px;
+   margin-bottom: 20px;
+}
+.businesscol2 img{
+    width: 100%;
+    height: 95%;
+}
+.colbtn{
+    display: flex;
+    gap: 0 10px;
+}
+.colbtn1{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+.colbtn1:hover{
+    background-color: rgb(51, 51, 51);
+}
+.colbtn2{
+    border: 1px solid;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+.colbtn2:hover{
+    background: var(--bg);
+}
+
+/* customer */
+.customerCardSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.customerCard{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 60%;
+    padding: 40px 25px;
+    border: 1px solid var(--textcolor);
+}
+.customercol1{
+    width: 56%;
+    line-height: 40px;
+    text-align: justify;
+}
+.customercol1 img{
+    width: 25px;
+}
+.customercol1 p {
+    font-size: large;
+}
+.customercol2{
+    text-align: center;
+    line-height: 40px;
+    font-size: large;
+}
+.customercol2 img{
+    width: 150px;
+    border-radius: 20rem;
+}
+.fullstory{
+    text-decoration: underline;
+    color: #5f2fd6;
+    font-weight: 700;
+    margin-top: 80px;    
+}
+
+/* home instructor */
+.instructorsectionparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 120px;
+    background-color: white;
+    padding: 90px 0;
+}
+.instructorsectionparent1{
+    width: 25%;
+    line-height: 28px;
+    background-color: white;
+}
+.instructorsectionparent1 h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.instructorsectionparent1 p{
+    font-size: large;
+}
+.instrBtn{
+    border: 1px solid;
+    width: fit-content;
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    font-size: large;
+    margin-top: 30px;
+}
+.instrBtn:hover{
+    background-color: rgb(53, 53, 53);
+}
+
+@media (max-width:756px){
+    .topimg_text{display: none;}
+    .featureTopicsMain{
+        display: none;
+    }
+    .businesssecton{display: none;}
+    .customerCardSection{display: none;}
+    .instructorsectionparent{display: none;}
+    .hometop-img{
+        z-index: -3;
+    }
+    .hometop-img img{
+        width: 95%;
+        height: 10rem;
+    }
+    /* home second section */
+    .homecompanysection{
+        height: 15rem;
+        font-size: 19px;
+        font-weight: 500;
+        gap: 20px 0;
+    }
+    .homecompanysection p{
+        text-align: center;
+    }
+    .homesection-1{
+        display: flex;
+        width: 90%;
+        gap: 10px 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .homesection-1 img{
+        width: 50px;
+    }
+     
+    /* home course section*/
+
+    .selectionCourse{
+        width: 100%;
+    }
+    .slectioncourse-1{
+        width: 90%;
+        margin:40px 0 ;
+    }
+    .selectioninner{
+        width: 100%;
+    }
+    .slectioncourse-1 h1{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .slectioncourse-1P{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .slectioncourse-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .slectioncourse-2 span{
+        font-size: 60%;
+    }
+    .span1{
+        padding-bottom: 3px;
+    }
+
+    .career1{
+        border: 2px solid rgb(211, 211, 211);
+        padding: 20px 10px;
+        width: 93%;
+    }
+
+    .career1 h2{
+        font-size: 20px;
+    }
+    .career1-p1{
+        width: 100%;
+        font-size: 12px;
+        text-align: justify;
+        padding: 5px 0;
+    }
+    .explore-btn{
+        padding: 6px 10px;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+    .carrerCard{
+        line-height: 20px;
+        width: 100%;
+        gap: 15px 0px;
+        padding-top: 0px;
+    }
+    .carrercard1{
+        width: 100%;
+    }
+    .carrercard1 img{
+        width: 100%;
+        height: 11rem;
+    }
+    /* goals */
+    .learnsection{
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px 0;
+        padding: 70px 0;
+        width: 100%;
+    }
+    .learnsection h1{
+        width: 90%;
+        font-size: 25px;
+    }
+    .learnsection1{
+        display: flex;
+        flex-direction: column;
+        gap: 18px 0px;
+        width: 88%;
+    }
+    .goalheading{
+        font-size: 100%;
+        height: 50%;
+    }
+    .goalsinner{
+        width: 100%;
+        text-align: justify;
+        padding: 18px 5px;
+        background-color: white;
+    }
+    .goalsinner img{
+        width: 20px;
+        margin-bottom: 8px;
+    }
+    .logo{
+        display: flex;
+        justify-content: start;
+        gap: 0 8px;
+        padding: 10px 0;
+    }
+    .logo span{
+        padding: 6px 5px;
+        font-size: 12px;
+    }
+    .playiconcontainer{
+        gap: 0 10px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .playiconcontainer span{
+        font-size: 15px;
+    }
+    .playicon{
+        font-size: x-large;
+    }
+
+    /* learner card */
+    .learnerview-section{
+        padding: 40px 0;
+        width: 100%;
+    }
+    .learnerview-section h1{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .learnerSection{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 15px 0px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .learnerCard{
+        width: 15rem;
+    }
+
+    /* top category */
+    .topinnercategories{
+        width: 80%;
+    }
+}
+
+@media (min-width:756px) and (max-width:1024px){
+    .hometop-img{
+        padding-bottom: 2rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .hometop-img img{
+        width: 95%;
+        height: 17rem;
+    }
+    .topimg_text{
+        position: absolute;
+        background-color: white;
+        width: 18rem;
+        top: 40px;
+        left: 50px;
+        padding: 10px 10px;
+        line-height: 50px;
+    }
+    .topimg_text h1{
+        font-size: x-large;
+        margin-bottom: -5px;
+    }
+    .topimg_text p{
+        font-size: small;
+        line-height: 18px;
+    }
+    .topimgbtn{
+        height: 3rem;
+        padding: 0px 10px;
+    }
+    
+    /* home second section */
+    .homecompanysection{
+        height: 12rem;
+        gap: 20px 0;
+    }
+    .homesection-1 img{
+        width: 60px;
+    }
+    
+    /* home course section*/
+    
+    .selectionCourse{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slectioncourse-1{
+        width: 88%;
+        margin:40px 0 ;
+    }
+    .selectioninner{
+        width: 100%;
+    }
+    .slectioncourse-1 h1{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .slectioncourse-1P{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+    .career1{
+        border: 2px solid rgb(211, 211, 211);
+        padding: 30px 22px;
+    }
+    
+    .career1 h2{
+        font-size: 30px;
+    }
+    .career1-p1{
+        width: 100%;
+        padding: 15px 0;
+        text-align: justify;
+    }
+    
+    .carrerCard{
+        display: flex;
+        line-height: 25px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px 0px;
+        padding-top: 15px;
+    }
+    
+    /* learner card */
+    .learnerview-section{
+        padding: 50px 0;
+        width: 100%;
+    }
+    .learnerview-section h1{
+        width: 88%;
+        margin-bottom: 15px;
+    }
+    .learnerSection{
+        flex-direction: row;
+        gap: 15px 0;
+        line-height: 23px;
+        width: 80%;
+    }
+    
+    /* feature */
+    .featureinner{
+        width: 100%;
+    }
+    .featureinner h2{
+        font-size: large;
+    }
+    .featurecol1{
+        gap: 10px 0;
+    }
+    .featurecol1 p{
+        font-size: 15px;
+    }
+    .featurecol1 span{
+        font-size: x-small;
+    }
+    .explorebtn{
+        padding: 10px 5px;
+    }
+    
+    /* bussines section */
+    .businesssecton{
+        padding: 50px 0;
+    }
+    .businesssecton1{
+        display: flex;
+        justify-content: center;
+    }
+    .businesscol1{
+        width: 40%;
+    }
+    .businesscol2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+    .businesscol1 img{
+        width: 10rem;
+    }
+    .businesscol1 h1{
+        font-size: x-large;
+    }
+    .businesscol1 ul{
+       font-size: 18px;
+       line-height: 28px;
+    }
+    .businesscol2 img{
+        width: 100%;
+        height: 95%;
+    }
+    .colbtn{
+        gap: 0 8px;
+    }
+    .colbtn1{
+        padding: 10px 10px;
+    }
+    .colbtn2{
+        padding: 10px 10px;
+    }
+    
+    /* customer */
+    .customerCardSection{
+        padding: 40px 0;
+    }
+    .customerCard{
+        width: 70%;
+        padding: 40px 25px;
+    }
+    .customercol1{
+        width: 58%;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .customercol1 img{
+        width: 22px;
+    }
+    .customercol2{
+        line-height: 38px;
+    }
+    .customercol2 img{
+        width: 130px;
+    }
+    .fullstory{
+        margin-top: 20px;    
+    }
+    
+    /* home instructor */
+    .instructorsectionparent{
+        gap: 0 40px;
+        padding: 80px 0;
+    }
+    .instructorsectionparent1{
+        width: 40%;
+        line-height: 32px;
+    }
+    .instructorsectionparent1 h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .instructorsectionparent1 p{
+        font-size: large;
+    }
+    .instrBtn{
+        border: 1px solid;
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.footersection{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    padding: 40px 0;
+}
+.footrow1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 20px;
+}
+.footrow1 span{
+    color: #cec0fc;
+}
+.footrow1-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-around;
+}
+.footerrow2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 20px;
+}
+.innerrowsection2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.innerrowsection-line{
+    line-height: 28px;
+}
+.innerrowsection2-btn{
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 18px;
+}
+.innerrowsection2-btn span{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.footerrow3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px 20px;
+}
+.footerrow3 img{
+    width: 6rem;
+}
+.footerrow3 p{
+    font-size: small;
+}
+
+/* mobile */
+@media (max-width:756px){
+    .footersection{
+        gap: 30px 0;
+        padding: 40px 0;
+    }
+    .footrow1{
+        align-items: center;
+        padding: 0 10px 20px;
+        gap: 20px 0;
+    }
+    .footrow1 span{
+        color: #cec0fc;
+    }
+    .footrow1-row{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footrow1-row img{
+        width: 50px;
+    }
+    .footerrow2{
+        flex-direction: column;
+        padding: 0 0 20px 20px;
+        gap: 20px 0;
+    }
+    .innerrowsection2{
+        flex-direction: column;
+        width: fit-content;
+    }
+    .innerrowsection-line{
+        line-height: 28px;
+    }
+    .innerrowsection2-btn{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 18px;
+    }
+    .innerrowsection2-btn span{
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    
+    .footerrow3{
+        flex-direction: column;
+        padding: 0 0 20px 20px;
+        width: fit-content;
+        gap: 15px 0;
+    }
+    .footerrow3 img{
+        width: 5rem;
+    }
+    .footerrow3 p{
+        font-size: xx-small;
+    }
+    
+}
+@media (min-width:756px) and (max-width:1024px){
+    .footersection{
+        width: 100%;
+        gap: 30px 0;
+        padding: 40px 0;
+    }
+    .footrow1{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px 20px;
+        gap: 20px 0;
+    }
+    .footrow1 span{
+        color: #cec0fc;
+    }
+    .footrow1-row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .footerrow2{
+        justify-content: space-between;
+        padding: 0 20px 20px;
+    }
+    .innerrowsection2{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+    .innerrowsection2-btn{
+        border: 1px solid white;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 18px;
+    }
+    .innerrowsection2-btn span{
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    
+    .footerrow3{
+        justify-content: space-between;
+        padding: 0 20px 20px;
+    }
+    .footerrow3 img{
+        width: 5rem;
+    }
+    .footerrow3 p{
+        font-size: x-small;
+    }
+}
